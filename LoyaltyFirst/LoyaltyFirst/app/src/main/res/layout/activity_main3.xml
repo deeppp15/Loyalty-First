@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="#ffffff"-->
+<!--    tools:context=".MainActivity">-->
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Transactions"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="fill_parent">-->
+<!--        <TableLayout android:id="@+id/score_table"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="fill_parent">-->
+<!--            <TableRow android:id="@+id/header"/>-->
+<!--        </TableLayout>-->
+
+
+
+    <TableLayout
+        android:id="@+id/tableMain"
+        android:layout_width="351dp"
+        android:layout_height="538dp"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        android:stretchColumns="0,1,2"> <!--// main-->
+
+<!--        <TableRow>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:textStyle="bold"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:textStyle="bold"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:textStyle="bold"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"/>-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#710C04"-->
+<!--                android:layout_marginBottom="1dp"-->
+<!--                android:layout_marginHorizontal="1dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#710C04"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:layout_marginBottom="1dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#710C04"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:layout_marginBottom="1dp"/>-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#710C04"-->
+<!--                android:layout_marginBottom="1dp"-->
+<!--                android:layout_marginHorizontal="1dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#710C04"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:layout_marginBottom="1dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#ffffff"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:layout_marginBottom="1dp"/>-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#ffffff"-->
+<!--                android:layout_marginBottom="1dp"-->
+<!--                android:layout_marginHorizontal="1dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#ffffff"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:layout_marginBottom="1dp"/>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"-->
+<!--                android:background="#ffffff"-->
+<!--                android:layout_marginRight="1dp"-->
+<!--                android:layout_marginBottom="1dp"/>-->
+
+<!--        </TableRow>-->
+
+    </TableLayout>
+<!--    </LinearLayout>-->
+
+<!--        <ScrollView-->
+<!--            android:id="@+id/scrollView"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="fill_parent">-->
+
+
+<!--        <View android:layout_width="match_parent"-->
+<!--            android:background="@android:color/black"-->
+<!--            android:layout_height="2dp" />-->
+
+
+
+<!--        <TableRow-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--        </ScrollView>-->
+
+<!--    </TableLayout>-->
+<!--    </ScrollView>-->
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
