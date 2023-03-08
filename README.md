@@ -1,2 +1,4 @@
 # Loyalty-First
-An Android based aplication based on Java servletts and Java Server Pages
+An Android based aplication based on Java servletts and Java Server Pages.
+
+Disclaimer: The repository hosted on this Git account is not intended to aid or encourage students to cheat in their academics or projects. The purpose of this repository is to provide educational resources, examples, and code snippets to help learners improve their programming skills and expand their knowledge. Any individual who decides to use this repository for the purpose of cheating is solely responsible for their own behavior and consequences that may arise from it. We strongly discourage and condemn any form of academic dishonesty or misconduct, and we do not support or endorse any actions that may violate the academic integrity policies of any educational institution. We urge all users of this repository to use the resources and materials available here for educational purposes only and to ensure that their use is consistent with the academic policies and regulations of their respective institutions.
